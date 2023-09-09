@@ -32,5 +32,5 @@ Before running the script, make sure you have the following libraries installed:
 1. This script is specifically designed for scraping Medium articles. Make sure to provide valid Medium article URLs.
 2. Please respect copyright and licensing terms when using this script.
 
-**Happy scrapping! 🙂
+**Happy scrapping!** 🙂
    
