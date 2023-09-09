@@ -1,0 +1,192 @@
+url: https://medium.com/@anirudh.munipalli/stop-using-console-log-in-javascript-try-these-instead-72490d895a24
+
+Anirudh Munipalli
+
+Follow
+
+--
+
+39
+
+Listen
+
+Share
+
+Debugging. Something that programmers try hard to avoid, only to make more bugs in code.
+
+Coding without bugs is something even the best programmers would find hard. Which is why, you should always debug code.
+
+And one of the best ways to debug JavaScript code is the amazing console.log(). Except, there are better ways.
+
+And that is the point of this article. To tell about better ways to interact with the console.
+
+Typing console in a sophisticated IDE gives a variety of auto completions.
+
+Instead of using the normal console.log(), here are some better options.
+
+Using these makes the process of debugging a lot easier and faster.
+
+When there is a bug that can stop the working of your application, using another console.log to debug it wouldn’t work.
+
+Your console messages would get mixed up. You can’t find the message that your looking for.
+
+But, using console.warn() and console.error() are good ways to overcome this.
+
+Want to see how much time that piece of code took to run?
+
+Use console.time().
+
+First, create a timer and give it a unique name.
+
+Then, run the piece of code.
+
+Then, call timeEnd().
+
+Here is all the code.
+
+This is very useful in CPU intensive applications that would take some time, like Neural Networks, or HTML Canvas reading.
+
+Want to see how a function was called?
+
+Over here, there is a method called randomFunction that calls trace, which calls console.trace().
+
+So, when you call randomFunction, you will get an output like
+
+It shows that anonymous (which is the main JavaScript code) called randomFunction, which called trace().
+
+If you group console messages, you can make your console easier to read.
+
+All the Test2 messages come under ‘My message group’.
+
+If you are following this tutorial, then your console will be pretty full. Let’s erase it.
+
+Well, let me show you the console.
+
+Not much to show. Now that we’re clear again, let’s continue.
+
+Let’s add tables to visualize data better.
+
+Imagine we have two objects.
+
+Simply console.log would make the data look messy.
+
+A table would be better.
+
+Never knew JavaScript consoles can look so clean, right?
+
+Yes, you read that right.
+
+You can add CSS to the console.
+
+Notice the %c sign. That is where the magic lies.
+
+Thanks for reading the article so far. This is the 5th article of a series about various JavaScript APIs and Features.
+
+You can find the other articles here: List: JavaScript APIs and Features | Curated by Anirudh Munipalli | Medium
+
+Follow to get notified when I post more articles. You’re an amazing reader.
+
+Window Console Object (w3schools.com)
+
+--
+
+--
+
+39
+
+HTML, CSS, JS, Python and ML Enthusiast | Love writing about tech|Creator of ZindaCSS | Read my articles | Always Dream Bigger
+
+Anirudh Munipalli
+
+--
+
+6
+
+Anirudh Munipalli
+
+--
+
+4
+
+Anirudh Munipalli
+
+--
+
+5
+
+Anirudh Munipalli
+
+--
+
+Jeswanth Reddy
+
+in
+
+Version 1
+
+--
+
+9
+
+Emma Delaney
+
+--
+
+22
+
+Benoit Ruiz
+
+in
+
+Better Programming
+
+--
+
+129
+
+Rabi Siddique
+
+in
+
+Level Up Coding
+
+--
+
+14
+
+Coding Beauty
+
+in
+
+Dev Genius
+
+--
+
+9
+
+Mirijam Missbichler
+
+--
+
+141
+
+Help
+
+Status
+
+Writers
+
+Blog
+
+Careers
+
+Privacy
+
+Terms
+
+About
+
+Text to speech
+
+Teams
+
